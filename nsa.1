@@ -1,0 +1,15 @@
+echo "enter the lenghth1"
+read a
+echo "enter the lenthg2"
+read b
+echo "enter the length3"
+read c
+if [ $a == $b -a $b == $c -a $a == $c ]
+then
+ echo "triangle is equelateral"
+elif [ $a != $b -a $a != $c -a $b != $c ]
+then
+ echo "triangle is scalene"
+else
+ echo "triangle is isoscless"
+fi
